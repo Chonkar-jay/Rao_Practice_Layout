@@ -1,0 +1,14 @@
+.nav_background
+{
+   border-bottom: 1px solid lightgrey;
+   
+}
+.logo img
+{
+    width: 150px ;
+}
+.nav_background li
+{
+    display: inline-flex;
+    
+}
