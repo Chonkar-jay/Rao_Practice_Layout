@@ -1,42 +1,173 @@
 .nav_background
 {
-    border-bottom: 1px solid lightgrey;
-    display: inline-flex;
-    
+    display: flex;   
 }
-.logo img
+.logo
 {
-    width: 400px;
-    padding: 15px;
+    position: relative;
 }
+
 .nav_container li  
 {
     display: inline-flex;
-    padding:15px;
+    padding:5px;
+    margin: 10px;
 }
 .first_section
 {
     display: inline-flex;
 }
-.logo
+.logo img
 {
     position: relative;
-    text-align: center;
-    color: red;
-    
-
+    width: 200px;
+    padding: 15px;
+}
+.logo_img_video_btn 
+{
+    position: absolute;
+    left:18%;
+    top:20%;
+    text-decoration:none;
+    color: white;
 }
 .logo_img_text
 {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    top: 25%;
+    left: 2%;
+    color: white;
+    text-align:left;
 }
+
 .main_discription
 {
     display: inline-flex;
-    padding: px;
+    align-items: center;
+    padding: 10px;
 }
 hr{
     color: black;
+}
+.section_item1_image_text img
+{
+    border-radius: 5px;
+}
+.section_item1_bg
+{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.section_item1_image_text
+{
+    color: red;
+}
+.section_item1_date_and_discovery
+{
+    display: inline-flex;
+}
+.discover_more_button
+{
+    display: inline-flex;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+.section_item2_image_text img
+{
+    border-radius: 5px;
+}
+.section_item2_bg
+{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.section_item2_image_text
+{
+    color: red;   
+}
+.section_item2_date_and_discovery
+{
+    display: inline-flex;
+    color: red;
+}
+.section_item3_image_text img
+{
+    border-radius: 5px;
+}
+.section_item3_bg
+{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.section_item3_image_text
+{
+    color: red;
+}
+.section_item3_date_and_discovery
+{
+    display: inline-flex;
+    color: red;
+}
+.blog1_numbering
+{
+    display: inline-flex;
+}
+.blog1_discription
+{
+    display: inline-flex;
+}
+.blog2_numbering
+{
+    display: inline-flex;
+}
+.blog2_discription
+{
+    display: inline-flex;
+}
+.blog3_numbering
+{
+    display: inline-flex;
+}
+.blog3_discription
+{
+    display: inline-flex;
+}
+.blog4_numbering
+{
+    display: inline-flex;
+}
+.blog4_discription
+{
+    display: inline-flex;
+}
+
+
+
+
+
+
+.blog1 img
+{
+    width: 30%;
+}
+.footer_bg
+{
+    background-color: black;
+    display: flex;
+    font-size:12px;
+    padding-top: 5px;
+}
+.copyright
+{
+    
+    color: white;
+   align-self: center; 
+   padding-left: 200px;
+}
+.footer_container li  
+{
+    display: inline-flex;
+    padding:15px;
+    text-decoration: none;
+    color: white;
 }
